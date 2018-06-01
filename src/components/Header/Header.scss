@@ -1,0 +1,16 @@
+
+.Header {
+  height: 54px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: #4A545E;
+  color: white;
+  padding: 5px 5px;
+
+  .HeaderName {
+    margin-left: 10px;
+  }
+
+}

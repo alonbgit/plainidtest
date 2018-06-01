@@ -1,0 +1,41 @@
+
+.ResourceListItem {
+
+  height: 43px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-bottom: 2px solid #F2F2F2;
+  border-left: 2px solid white;
+
+  .ItemName {
+    color: #8c8c8c;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .Arrow {
+    margin-left: auto;
+    display: none;
+  }
+
+  .Arrow.ArrowActive {
+    display: block;
+  }
+
+  .Check {
+
+  }
+
+}
+
+.ResourceListItem.Selected {
+  background: #E6E6E6;
+  border-left: 2px solid #5293E7;
+}
+
+.ResourceListItem:hover, {
+  background: #E6E6E6;
+  cursor: pointer;
+}

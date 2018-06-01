@@ -1,0 +1,44 @@
+
+.GeneralDetails {
+  border-right: 2px solid #F5F5F5;
+  flex: 2;
+  margin-left: 20px;
+
+  .ResourceHeader {
+    color: #B4B4B4;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .ResourceDetailsForm {
+    margin-top: 30px;
+    width: 95%;
+    border-right: 2px solid #eaeaea;
+    padding-right: 4px;
+    box-sizing: border-box;
+
+    .FormItem {
+      margin-top: 5px;
+    }
+  }
+
+  .ResourceValue {
+    background: #FAFBFF;
+    width: 100%;
+    height: 30px;
+    margin-top: 2px;
+    color: #B4B4B4;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    box-sizing: border-box;
+  }
+
+  .ResourceValue.Description {
+    height: 80px;
+    align-items: flex-start;
+    padding-top: 5px;
+  }
+
+}

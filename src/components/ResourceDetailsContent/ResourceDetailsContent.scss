@@ -1,0 +1,17 @@
+
+.ResourceDetailsContent {
+  width: 80%;
+  height: 80%;
+  box-shadow: 6px 6px 14px -4px rgba(0,0,0,0.75);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 524px;
+
+  .Content {
+    display: flex;
+    padding: 20px 10px 0px 0px;
+    flex: 1;
+  }
+
+}
